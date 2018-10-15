@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A001039216575B600E74B17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A001038216575B600E74B17 /* AppDelegate.swift */; };
+		7A001042216575BD00E74B17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A001041216575BD00E74B17 /* Assets.xcassets */; };
+		7A4A4C2C2173FC4E005FA412 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4A4C2B2173FC4E005FA412 /* DataManager.swift */; };
+		7ABF22EF2168EC71003BA0E4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABF22ED2168EC70003BA0E4 /* DetailViewController.swift */; };
+		7ABF22F02168EC71003BA0E4 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABF22EE2168EC70003BA0E4 /* MasterViewController.swift */; };
+		7ABF22F32168ED05003BA0E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ABF22F12168ED04003BA0E4 /* Main.storyboard */; };
+		7ABF22F42168ED05003BA0E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ABF22F22168ED05003BA0E4 /* LaunchScreen.storyboard */; };
+		7ABF22F62168F9AA003BA0E4 /* SearchAirportController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABF22F52168F9AA003BA0E4 /* SearchAirportController.swift */; };
+		7ABF22F821693C37003BA0E4 /* AirportWatchlistController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABF22F721693C37003BA0E4 /* AirportWatchlistController.swift */; };
+		7ABF22FE216A4B14003BA0E4 /* Airport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABF22FD216A4B14003BA0E4 /* Airport.swift */; };
+		7ABF2300216CDF95003BA0E4 /* SearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABF22FF216CDF95003BA0E4 /* SearchService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7A001035216575B600E74B17 /* Voos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Voos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A001038216575B600E74B17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A001041216575BD00E74B17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A001046216575BD00E74B17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A4A4C2B2173FC4E005FA412 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DataManager.swift; path = Model/DataManager.swift; sourceTree = "<group>"; };
+		7ABF22ED2168EC70003BA0E4 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = Controllers/DetailViewController.swift; sourceTree = "<group>"; };
+		7ABF22EE2168EC70003BA0E4 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MasterViewController.swift; path = Controllers/MasterViewController.swift; sourceTree = "<group>"; };
+		7ABF22F12168ED04003BA0E4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7ABF22F22168ED05003BA0E4 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7ABF22F52168F9AA003BA0E4 /* SearchAirportController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchAirportController.swift; path = Controllers/SearchAirportController.swift; sourceTree = "<group>"; };
+		7ABF22F721693C37003BA0E4 /* AirportWatchlistController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AirportWatchlistController.swift; path = Controllers/AirportWatchlistController.swift; sourceTree = "<group>"; };
+		7ABF22FD216A4B14003BA0E4 /* Airport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Airport.swift; path = Model/Airport.swift; sourceTree = "<group>"; };
+		7ABF22FF216CDF95003BA0E4 /* SearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchService.swift; path = Model/SearchService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A001032216575B600E74B17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A00102C216575B600E74B17 = {
+			isa = PBXGroup;
+			children = (
+				7A001037216575B600E74B17 /* Voos */,
+				7A001036216575B600E74B17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A001036216575B600E74B17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A001035216575B600E74B17 /* Voos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A001037216575B600E74B17 /* Voos */ = {
+			isa = PBXGroup;
+			children = (
+				7A001038216575B600E74B17 /* AppDelegate.swift */,
+				7A001041216575BD00E74B17 /* Assets.xcassets */,
+				7ABF22EC2168EC60003BA0E4 /* Controllers */,
+				7A001046216575BD00E74B17 /* Info.plist */,
+				7ABF22F22168ED05003BA0E4 /* LaunchScreen.storyboard */,
+				7ABF22F12168ED04003BA0E4 /* Main.storyboard */,
+				7ABF22FC216A4A7F003BA0E4 /* Model */,
+			);
+			path = Voos;
+			sourceTree = "<group>";
+		};
+		7ABF22EC2168EC60003BA0E4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7ABF22F721693C37003BA0E4 /* AirportWatchlistController.swift */,
+				7ABF22ED2168EC70003BA0E4 /* DetailViewController.swift */,
+				7ABF22EE2168EC70003BA0E4 /* MasterViewController.swift */,
+				7ABF22F52168F9AA003BA0E4 /* SearchAirportController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		7ABF22FC216A4A7F003BA0E4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7ABF22FD216A4B14003BA0E4 /* Airport.swift */,
+				7A4A4C2B2173FC4E005FA412 /* DataManager.swift */,
+				7ABF22FF216CDF95003BA0E4 /* SearchService.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A001034216575B600E74B17 /* Voos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A001049216575BD00E74B17 /* Build configuration list for PBXNativeTarget "Voos" */;
+			buildPhases = (
+				7A001031216575B600E74B17 /* Sources */,
+				7A001032216575B600E74B17 /* Frameworks */,
+				7A001033216575B600E74B17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Voos;
+			productName = Voos;
+			productReference = 7A001035216575B600E74B17 /* Voos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A00102D216575B600E74B17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Carlos Moscoso";
+				TargetAttributes = {
+					7A001034216575B600E74B17 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 7A001030216575B600E74B17 /* Build configuration list for PBXProject "Voos" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A00102C216575B600E74B17;
+			productRefGroup = 7A001036216575B600E74B17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A001034216575B600E74B17 /* Voos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A001033216575B600E74B17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ABF22F42168ED05003BA0E4 /* LaunchScreen.storyboard in Resources */,
+				7A001042216575BD00E74B17 /* Assets.xcassets in Resources */,
+				7ABF22F32168ED05003BA0E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A001031216575B600E74B17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ABF22F02168EC71003BA0E4 /* MasterViewController.swift in Sources */,
+				7A4A4C2C2173FC4E005FA412 /* DataManager.swift in Sources */,
+				7A001039216575B600E74B17 /* AppDelegate.swift in Sources */,
+				7ABF22F821693C37003BA0E4 /* AirportWatchlistController.swift in Sources */,
+				7ABF22FE216A4B14003BA0E4 /* Airport.swift in Sources */,
+				7ABF2300216CDF95003BA0E4 /* SearchService.swift in Sources */,
+				7ABF22F62168F9AA003BA0E4 /* SearchAirportController.swift in Sources */,
+				7ABF22EF2168EC71003BA0E4 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7A001047216575BD00E74B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A001048216575BD00E74B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A00104A216575BD00E74B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9PZT48XCRQ;
+				INFOPLIST_FILE = Voos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.naspeita.Voos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A00104B216575BD00E74B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9PZT48XCRQ;
+				INFOPLIST_FILE = Voos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.naspeita.Voos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A001030216575B600E74B17 /* Build configuration list for PBXProject "Voos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A001047216575BD00E74B17 /* Debug */,
+				7A001048216575BD00E74B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A001049216575BD00E74B17 /* Build configuration list for PBXNativeTarget "Voos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A00104A216575BD00E74B17 /* Debug */,
+				7A00104B216575BD00E74B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A00102D216575B600E74B17 /* Project object */;
+}

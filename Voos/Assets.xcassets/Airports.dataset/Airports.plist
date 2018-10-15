@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>code</key>
+		<string>bsb</string>
+		<key>name</key>
+		<string>Brasília</string>
+		<key>latitude</key>
+		<real>-15.868067</real>
+		<key>longitude</key>
+		<real>-47.920475</real>
+		<key>displayName</key>
+		<string>Juscelino Kubitschek</string>
+	</dict>
+	<dict>
+		<key>code</key>
+		<string>rec</string>
+		<key>name</key>
+		<string>Recife</string>
+		<key>latitude</key>
+		<real>-8.12979</real>
+		<key>longitude</key>
+		<real>-34.919011</real>
+		<key>displayName</key>
+		<string>Guararapes</string>
+	</dict>
+	<dict>
+		<key>code</key>
+		<string>ssa</string>
+		<key>name</key>
+		<string>Salvador</string>
+		<key>latitude</key>
+		<real>-12.914122</real>
+		<key>longitude</key>
+		<real>-38.333214</real>
+		<key>displayName</key>
+		<string>Salvador</string>
+	</dict>
+	<dict>
+		<key>code</key>
+		<string>vix</string>
+		<key>name</key>
+		<string>Vitória</string>
+		<key>latitude</key>
+		<real>-20.257829</real>
+		<key>longitude</key>
+		<real>-40.289397</real>
+		<key>displayName</key>
+		<string>Eurico Sales</string>
+	</dict>
+	<dict>
+		<key>code</key>
+		<string>sdu</string>
+		<key>name</key>
+		<string>Rio de Janeiro</string>
+		<key>latitude</key>
+		<real>-22.912216</real>
+		<key>longitude</key>
+		<real>-43.165385</real>
+		<key>displayName</key>
+		<string>Santos Dumont</string>
+	</dict>
+	<dict>
+		<key>code</key>
+		<string>gig</string>
+		<key>name</key>
+		<string>Rio de Janeiro</string>
+		<key>latitude</key>
+		<real>-22.811641</real>
+		<key>longitude</key>
+		<real>-43.250996</real>
+		<key>displayName</key>
+		<string>Galeão</string>
+	</dict>
+	<dict>
+		<key>code</key>
+		<string>cgh</string>
+		<key>name</key>
+		<string>São Paulo</string>
+		<key>latitude</key>
+		<real>-23.62784</real>
+		<key>longitude</key>
+		<real>-46.65674</real>
+		<key>displayName</key>
+		<string>Congonhas</string>
+	</dict>
+	<dict>
+		<key>code</key>
+		<string>cgr</string>
+		<key>name</key>
+		<string>Campo Grande</string>
+		<key>latitude</key>
+		<real>-20.457039</real>
+		<key>longitude</key>
+		<real>-54.668775</real>
+		<key>displayName</key>
+		<string>Antônio João</string>
+	</dict>
+	<dict>
+		<key>code</key>
+		<string>cwb</string>
+		<key>name</key>
+		<string>Curitiba</string>
+		<key>latitude</key>
+		<real>-25.535388</real>
+		<key>longitude</key>
+		<real>-49.171962</real>
+		<key>displayName</key>
+		<string>Afonso Pena</string>
+	</dict>
+	<dict>
+		<key>code</key>
+		<string>poa</string>
+		<key>name</key>
+		<string>Porto Alegre</string>
+		<key>latitude</key>
+		<real>-29.990338</real>
+		<key>longitude</key>
+		<real>-51.17717</real>
+		<key>displayName</key>
+		<string>Salgado Filho</string>
+	</dict>
+	<dict>
+		<key>code</key>
+		<string>gru</string>
+		<key>name</key>
+		<string>São Paulo</string>
+		<key>latitude</key>
+		<real>-23.425266</real>
+		<key>longitude</key>
+		<real>-46.48184</real>
+		<key>displayName</key>
+		<string>Guarulhos</string>
+	</dict>
+	<dict>
+		<key>code</key>
+		<string>fln</string>
+		<key>name</key>
+		<string>Hercílio Luz</string>
+		<key>latitude</key>
+		<real>-27.664642</real>
+		<key>longitude</key>
+		<real>-48.544781</real>
+		<key>displayName</key>
+		<string>Florianópolis</string>
+	</dict>
+	<dict>
+		<key>code</key>
+		<string>cgb</string>
+		<key>name</key>
+		<string>Cuiabá</string>
+		<key>latitude</key>
+		<real>-15.651054</real>
+		<key>longitude</key>
+		<real>-56.120595</real>
+		<key>displayName</key>
+		<string>Marechal Rondon</string>
+	</dict>
+	<dict>
+		<key>code</key>
+		<string>mao</string>
+		<key>name</key>
+		<string>Manaus</string>
+		<key>latitude</key>
+		<real>-3.035694</real>
+		<key>longitude</key>
+		<real>-60.046389</real>
+		<key>displayName</key>
+		<string>Eduardo Gomes</string>
+	</dict>
+	<dict>
+		<key>code</key>
+		<string>gyn</string>
+		<key>name</key>
+		<string>Goiânia</string>
+		<key>latitude</key>
+		<real>-16.632334</real>
+		<key>longitude</key>
+		<real>-49.226773</real>
+		<key>displayName</key>
+		<string>Santa Genoveva</string>
+	</dict>
+	<dict>
+		<key>code</key>
+		<string>bel</string>
+		<key>name</key>
+		<string>Belém</string>
+		<key>latitude</key>
+		<real>-1.389479</real>
+		<key>longitude</key>
+		<real>-48.479918</real>
+		<key>displayName</key>
+		<string>Val de Cans</string>
+	</dict>
+	<dict>
+		<key>code</key>
+		<string>cnf</string>
+		<key>name</key>
+		<string>Confins</string>
+		<key>latitude</key>
+		<real>-19.630634</real>
+		<key>longitude</key>
+		<real>-43.964101</real>
+		<key>displayName</key>
+		<string>Tancredo Neves</string>
+	</dict>
+	<dict>
+		<key>code</key>
+		<string>for</string>
+		<key>name</key>
+		<string>Fortaleza</string>
+		<key>latitude</key>
+		<real>-3.778788</real>
+		<key>longitude</key>
+		<real>-38.541063</real>
+		<key>displayName</key>
+		<string>Pinto Martins</string>
+	</dict>
+	<dict>
+		<key>code</key>
+		<string>mcz</string>
+		<key>name</key>
+		<string>Maceió</string>
+		<key>latitude</key>
+		<real>-9.510842</real>
+		<key>longitude</key>
+		<real>-35.791672</real>
+		<key>displayName</key>
+		<string>Zumbi dos Palmares</string>
+	</dict>
+	<dict>
+		<key>code</key>
+		<string>aju</string>
+		<key>name</key>
+		<string>Aracaju</string>
+		<key>latitude</key>
+		<real>-10.983889</real>
+		<key>longitude</key>
+		<real>-37.070278</real>
+		<key>displayName</key>
+		<string>Santa Maria</string>
+	</dict>
+</array>
+</plist>
